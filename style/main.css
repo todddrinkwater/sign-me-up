@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 6em;
+  color: white
+}
+
+body {
+  background-color: #0266a2
+}
+
+.login {
+  margin-top: 10%
+}
