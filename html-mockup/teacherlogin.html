@@ -1,20 +1,33 @@
-<!--  This is the login page -->
-
-<h1>Sign Me Up!</h1>
-<h4>Please Sign In to Sign Up</h4>
-  <form action="#" method="post">
-    <ul>
-      <li>
-      <select>
-           <option value="organisation">Fraser High School</option>
-      </select>
-      </li>
-      <li>
-        Email:<input type="text" name="id" />
-      </li>
-      <li>
-        Password: <input type="text" name="password" />
-      </li>
-    </ul>
-  <Link to="/teacher-profile/1"><input type="submit" value="Log In" /></Link>
-  </form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login - Teachers</title>
+      <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+      <link rel="stylesheet" href="../style/main.css">
+  </head>
+  <body>
+    <div class="header container center">
+      <h1 class="logo">sign me up!</h1>
+      <h5>Teachers</h5>
+    <div/>
+    <div class="login input-field col s6 container">
+      <form action="#" method="post">
+          <select>
+            <option value="" disabled selected>My school</option>
+            <option value="1">St. Mary's College</option>
+            <option value="2">Onslow College</option>
+            <option value="3">Tawa College</option>
+          </select>
+            Email:<input type="text" name="id" />
+            Password: <input type="password" name="password" />
+        <button type="button" class="btn btn-default btn-lg">Sign In</button>
+      </form>
+    </div>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../style/initialize.js"></script>
+</html>
